@@ -370,8 +370,8 @@ app.get('/api/debates/:debateId/comments', async (req, res) => {
 
 // Start server
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server running on port ${PORT}`);
     console.log('Available endpoints:');
     console.log('- GET  /api/topics');
     console.log('- POST /api/topics');
@@ -379,4 +379,13 @@ app.listen(PORT, () => {
     console.log('- POST /api/debates/:debateId/join');
     console.log('- POST /api/debates/:debateId/comments');
     console.log('- POST /api/users/anonymous');
+}).on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+        console.log(`Port ${PORT} is busy, trying ${PORT + 1}`);
+        app.listen(PORT + 1, '0.0.0.0', () => {
+            console.log(`Server running on port ${PORT + 1}`);
+        });
+    } else {
+        console.error('Server error:', err);
+    }
 }); 

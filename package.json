@@ -4,7 +4,7 @@
   "description": "Debate App with anonymous users",
   "main": "server.js",
   "scripts": {
-    "start": "node start.js",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {

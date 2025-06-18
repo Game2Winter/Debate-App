@@ -48,7 +48,6 @@ A real-time debate application where users can create topics, join debates, and 
 ├── app.js             # Client-side JavaScript
 ├── index.html         # Main HTML file
 ├── styles.css         # CSS styles
-├── start.js           # Glitch start script
 ├── package.json       # Dependencies and scripts
 ├── data/              # JSON data storage
 │   ├── debates.json   # Debate data

@@ -82,7 +82,9 @@
       "status": "active",
       "startDate": "2025-06-16",
       "endDate": "2025-06-20",
-      "participants": [],
+      "participants": [
+        "697da139-734d-4bd5-8594-9eb76a41142a"
+      ],
       "comments": []
     },
     {
