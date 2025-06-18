@@ -7,7 +7,6 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const app = express();
-const port = 3000;
 
 // Middleware
 app.use(cors());
@@ -370,6 +369,14 @@ app.get('/api/debates/:debateId/comments', async (req, res) => {
 });
 
 // Start server
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
+    console.log('Available endpoints:');
+    console.log('- GET  /api/topics');
+    console.log('- POST /api/topics');
+    console.log('- GET  /api/debates');
+    console.log('- POST /api/debates/:debateId/join');
+    console.log('- POST /api/debates/:debateId/comments');
+    console.log('- POST /api/users/anonymous');
 }); 
