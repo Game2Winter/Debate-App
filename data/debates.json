@@ -1,0 +1,100 @@
+{
+  "debates": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "title": "Climate Action Now",
+      "category": "Environment",
+      "status": "active",
+      "startDate": "2025-06-15",
+      "endDate": "2025-06-22",
+      "participants": [
+        "7ec8c9c8-5b3c-4e1a-bcd5-6a37f06ff496",
+        "931cc8f9-94bf-4e7a-a143-93315ee5550b",
+        "697da139-734d-4bd5-8594-9eb76a41142a"
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "userId": "7ec8c9c8-5b3c-4e1a-bcd5-6a37f06ff496",
+          "author": "Famous Mole",
+          "content": "We need to take immediate action to reduce carbon emissions.",
+          "date": "2025-06-15T10:30:00Z"
+        },
+        {
+          "id": 2,
+          "userId": "931cc8f9-94bf-4e7a-a143-93315ee5550b",
+          "author": "Cognitive Bird",
+          "content": "What specific measures do you propose?",
+          "date": "2025-06-15T10:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topicId": 2,
+      "title": "AI in Medical Decisions",
+      "category": "Technology",
+      "status": "scheduled",
+      "startDate": "2025-06-20",
+      "endDate": "2025-06-27",
+      "participants": [
+        "48f34f35-a408-4f85-b75e-dbbb9e0b106f",
+        "697da139-734d-4bd5-8594-9eb76a41142a"
+      ],
+      "comments": []
+    },
+    {
+      "id": 3,
+      "topicId": 3,
+      "title": "UBI Implementation",
+      "category": "Society",
+      "status": "expired",
+      "startDate": "2025-06-10",
+      "endDate": "2025-06-17",
+      "participants": [
+        "3e2d00ce-5a3b-463f-999b-46b709793970",
+        "7ec8c9c8-5b3c-4e1a-bcd5-6a37f06ff496",
+        "697da139-734d-4bd5-8594-9eb76a41142a"
+      ],
+      "comments": [
+        {
+          "id": 3,
+          "userId": "3e2d00ce-5a3b-463f-999b-46b709793970",
+          "author": "Statistical Lobster",
+          "content": "Studies show UBI could reduce poverty by 40%.",
+          "date": "2025-06-10T14:20:00Z"
+        },
+        {
+          "id": 2,
+          "userId": "697da139-734d-4bd5-8594-9eb76a41142a",
+          "author": "Minimum Koi",
+          "content": "idk abt that",
+          "date": "2025-06-18T04:39:09.495Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "topicId": 8,
+      "title": "NEW DEBATE",
+      "category": "Technology",
+      "status": "active",
+      "startDate": "2025-06-16",
+      "endDate": "2025-06-20",
+      "participants": [],
+      "comments": []
+    },
+    {
+      "id": 5,
+      "topicId": 9,
+      "title": "AGI is NEAR",
+      "category": "Technology",
+      "status": "active",
+      "startDate": "2025-06-17",
+      "endDate": "2025-06-19",
+      "participants": [],
+      "comments": []
+    }
+  ]
+}

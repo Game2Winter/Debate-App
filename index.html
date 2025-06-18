@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Debate App</h1>
+            <div class="user-info">
+                <span>Welcome, </span>
+                <span id="userName"></span>
+            </div>
+            <nav>
+                <button onclick="showCreateTopic()">Create New Topic</button>
+                <button onclick="showActiveDebates()">View Active Debates</button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Create New Topic Section -->
+            <section id="createTopicSection" class="section">
+                <h2>Create New Topic</h2>
+                <form id="topicForm">
+                    <div class="form-group">
+                        <label for="topicTitle">Title:</label>
+                        <input type="text" id="topicTitle" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="topicDescription">Description:</label>
+                        <textarea id="topicDescription" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="topicCategory">Category:</label>
+                        <select id="topicCategory" required>
+                            <option value="Technology">Technology</option>
+                            <option value="Society">Society</option>
+                            <option value="Environment">Environment</option>
+                            <option value="Politics">Politics</option>
+                            <option value="Science">Science</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="startDate">Start Date:</label>
+                        <input type="date" id="startDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="endDate">End Date:</label>
+                        <input type="date" id="endDate" required>
+                    </div>
+                    <button type="submit">Create Topic</button>
+                </form>
+            </section>
+
+            <!-- Active Debates Section -->
+            <section id="activeDebatesSection" class="section">
+                <h2>Debates</h2>
+                <div class="filter-controls">
+                    <label class="toggle">
+                        <input type="checkbox" id="activeOnlyToggle">
+                        <span class="slider"></span>
+                        <span class="label">Show Active Only</span>
+                    </label>
+                </div>
+                <div id="debatesList" class="debates-list"></div>
+            </section>
+
+            <!-- Chatroom Section -->
+            <section id="chatroomSection" class="section hidden">
+                <h2>Debate Chatroom</h2>
+                <div id="chatroomInfo"></div>
+                <div id="commentsList"></div>
+                <form id="commentForm">
+                    <textarea id="commentText" placeholder="Type your comment here..." required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

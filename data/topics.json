@@ -1,0 +1,67 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "Climate Change Impact",
+      "description": "How is climate change affecting our daily lives and what can we do about it?",
+      "category": "Environment",
+      "votes": 247
+    },
+    {
+      "id": 2,
+      "title": "AI Ethics in Healthcare",
+      "description": "Should AI be allowed to make life-or-death decisions in medical care?",
+      "category": "Technology",
+      "votes": 189
+    },
+    {
+      "id": 3,
+      "title": "Universal Basic Income",
+      "description": "Would implementing UBI help reduce poverty and inequality?",
+      "category": "Society",
+      "votes": 312
+    },
+    {
+      "id": 4,
+      "title": "Social Media Regulation",
+      "description": "How should governments regulate social media platforms?",
+      "category": "Technology",
+      "votes": 178
+    },
+    {
+      "id": 5,
+      "title": "Renewable Energy Transition",
+      "description": "What's the fastest way to transition to 100% renewable energy?",
+      "category": "Environment",
+      "votes": 268
+    },
+    {
+      "id": 6,
+      "title": null,
+      "description": null,
+      "category": null,
+      "votes": 0
+    },
+    {
+      "id": 7,
+      "title": "NEWER TOPIC 1",
+      "description": "12345",
+      "category": "Technology",
+      "votes": 0
+    },
+    {
+      "id": 8,
+      "title": "NEW DEBATE",
+      "description": "TEST 12345",
+      "category": "Technology",
+      "votes": 0
+    },
+    {
+      "id": 9,
+      "title": "AGI is NEAR",
+      "description": "according to OpenAI",
+      "category": "Technology",
+      "votes": 0
+    }
+  ]
+}
