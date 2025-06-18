@@ -27,28 +27,12 @@ A real-time debate application where users can create topics, join debates, and 
 
 ## Deployment
 
-### Deploying to Glitch.com (Recommended)
+### Deploying to Glitch.com
 
-1. Go to [Glitch.com](https://glitch.com) and create an account
-2. Click "New Project" → "Import from GitHub" (if you have a GitHub repo)
-3. Or create a new project and upload your files manually
-4. Glitch will automatically:
-   - Install dependencies from `package.json`
-   - Start your server using the `start` script
-   - Provide you with a live URL
-5. Your app will be available at: `https://your-project-name.glitch.me`
-
-### Deploying to Render.com
-
-1. Create a Render account at https://render.com
-2. Create a new Web Service
-3. Connect your GitHub repository
-4. Configure the service:
-   - Name: debate-app (or your preferred name)
-   - Environment: Node
-   - Build Command: `npm install`
-   - Start Command: `npm start`
-   - Plan: Free
+1. Create a new project on Glitch
+2. Upload all project files to Glitch
+3. Glitch will automatically install dependencies and start the server
+4. Your app will be available at: `https://your-project-name.glitch.me`
 
 ### Other Hosting Options
 
